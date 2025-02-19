@@ -14,3 +14,13 @@ adb shell "pm list packages | cut -d : -f2 | xargs -n1 cmd package compile -m sp
 -c命令会在编译优化执行前先清空应用profile
 adb shell "pm list packages | cut -d : -f2 | xargs -n1 cmd package compile -c -m speed-profile -f "
 ```
+3、
+```
+dumpsys activity |grep -i mresume  ==》查看当前页面的activity
+```
+4、
+```
+gdb disassemble命令：
+disassemble [func] 反汇编func函数
+disassemble /m [func]  反汇编func函数显示对应源码
+```
