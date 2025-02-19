@@ -24,3 +24,20 @@ gdb disassemble命令：
 disassemble [func] 反汇编func函数
 disassemble /m [func]  反汇编func函数显示对应源码
 ```
+5、
+```
+grep 常用命令
+-i    ==忽略大小写
+-iw   ==匹配完整的单词，不是子串
+-nr   ==递归搜索显示行号
+-v    ==取反
+-e -e  ==匹配多个
+
+。。。
+```
+6、
+```
+显示帧率： adb shell service call SurfaceFlinger 1034 i32 1
+```
+
+
